@@ -1,0 +1,67 @@
+:root {
+  /* tipografia */
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+
+  /* paleta de colores */
+  --Azul: hsl(220, 27%, 22%);
+  --Celeste: hsl(225, 21%, 49%);
+}
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0%;
+  margin: 0%;
+  user-select: none;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img {
+  width: 128px;
+  height: auto;
+}
+
+figure {
+  float: left;
+  height: 100vh;
+  padding: 0rem 0.75rem;
+  background-color: var(--Celeste);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--Azul);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--Azul);
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+section, h3:not(:first-of-type), footer {
+  margin-top: 1rem;
+}
+
+li {
+  margin-left: 2rem;
+}
+
+nav, footer {
+  font-size: 0.75rem;
+}
+
+header, main, footer {
+  margin-left: 10rem;
+}
